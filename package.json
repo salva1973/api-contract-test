@@ -1,0 +1,21 @@
+{
+  "name": "postman-contract-test",
+  "version": "1.0.0",
+  "description": "api contract testing",
+  "main": "app.js",
+  "scripts": {
+    "contractTests": "node ./apiContractTest.js",
+    "startServer": "node ./app.js",
+    "debugServer": "nodemon ./app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "salva",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "newman": "^5.1.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
